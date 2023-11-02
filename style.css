@@ -37,6 +37,10 @@ header {
   right: 30px;
   margin-bottom: 15px;
 }
+.back-to-top-button > a {
+  text-decoration: none;
+  color: black;
+}
 /* SLIDER/BANNER*/
 .slider {
   position: relative;
