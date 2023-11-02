@@ -17,15 +17,25 @@ body {
 }
 
 /* HEADER */
-.header {
+header {
   background-color: #1f2944;
   text-align: center;
-
   /* fixed header */
-
+  position: sticky;
+  top: 0%;
   /* make sure it appears on top everything else */
+  z-index: 99;
 }
-header img {
+.back-to-top-button {
+  background-color: transparent;
+  padding: 18px 20px 18px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 99;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  margin-bottom: 15px;
 }
 /* SLIDER/BANNER*/
 .slider {
@@ -205,8 +215,8 @@ input {
   padding-bottom: 10%;
 }
 
-a:link,
-a:visited {
+footer > div.contact-info > p > a:link,
+footer > div.contact-info > p > a:visited {
   color: white;
   text-decoration: none;
 }
